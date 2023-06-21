@@ -1,0 +1,30 @@
+Commands to install on macOs
+
+$ brew tap redis-stack/redis-stack
+Running `brew update --auto-update`...
+==> Auto-updated Homebrew!
+Updated 3 taps (homebrew/services, homebrew/core and homebrew/cask).
+==> New Formulae
+:
+:
+:
+==> New Casks
+1kc-razer                                                           focusrite-control                                                   nordic-nrf-command-line-tools
+:
+:
+
+You have 43 outdated formulae installed.
+
+==> Tapping redis-stack/redis-stack
+Cloning into '/usr/local/Homebrew/Library/Taps/redis-stack/homebrew-redis-stack'...
+remote: Enumerating objects: 220, done.
+remote: Counting objects: 100% (89/89), done.
+remote: Compressing objects: 100% (68/68), done.
+remote: Total 220 (delta 37), reused 53 (delta 21), pack-reused 131
+Receiving objects: 100% (220/220), 32.47 KiB | 852.00 KiB/s, done.
+Resolving deltas: 100% (84/84), done.
+Tapped 3 casks (16 files, 49.0KB).
+
+
+$ brew install redis-stack
+redis-stack was successfully installed!
