@@ -37,3 +37,28 @@ $ redis-stack-server &
 # Start redis insight
 $ redisinsight
 
+$ brew install redis
+
+To start redis now and restart at login:
+  brew services start redis
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/redis/bin/redis-server /usr/local/etc/redis.conf
+==> node
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> postgresql@14
+This formula has created a default database cluster with:
+  initdb --locale=C -E UTF-8 /usr/local/var/postgresql@14
+For more details, read:
+  https://www.postgresql.org/docs/14/app-initdb.html
+
+To start postgresql@14 now and restart at login:
+  brew services start postgresql@14
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/postgresql@14/bin/postgres -D /usr/local/var/postgresql@14
+==> gdb
+gdb requires special privileges to access Mach ports.
+You will need to codesign the binary. For instructions, see:
+
+  https://sourceware.org/gdb/wiki/PermissionsDarwin
+
