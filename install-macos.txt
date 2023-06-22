@@ -62,3 +62,7 @@ You will need to codesign the binary. For instructions, see:
 
   https://sourceware.org/gdb/wiki/PermissionsDarwin
 
+
+# Start redis service
+$ brew services start redis
+
