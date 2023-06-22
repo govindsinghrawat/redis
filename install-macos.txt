@@ -1,3 +1,5 @@
+https://redis.io/docs/stack/get-started/install/mac-os/
+
 Commands to install on macOs
 
 $ brew tap redis-stack/redis-stack
@@ -31,4 +33,7 @@ redis-stack was successfully installed!
 
 # Start redis server
 $ redis-stack-server &
+
+# Start redis insight
+$ redisinsight
 
