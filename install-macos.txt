@@ -28,3 +28,7 @@ Tapped 3 casks (16 files, 49.0KB).
 
 $ brew install redis-stack
 redis-stack was successfully installed!
+
+# Start redis server
+$ redis-stack-server &
+
